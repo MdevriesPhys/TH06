@@ -35,6 +35,8 @@
 #define TH06_RESET 								0xFE
 #define TH06_WRITE_HUMIDITY_TEMP_CONTR			0xE6
 #define TH06_READ_HUMIDITY_TEMP_CONTR 			0xE7
+#define TH06_FIRMWARE_0							0x84
+#define TH06_FIRMWARE_1							0x8b
 
 
 class TH06 {
@@ -83,8 +85,6 @@ class TH06 {
 			
 		boolean getFirmwareVer(byte &firmware);
 			// Gets the Firmware Version of the chip
-			// Default value is 0xFF for version 1.0
-			// or 0x20 for version 2.0
 			// Returns true (1) if successful, false (0) if there was an I2C error
 			// (Also see getError() below)
 			

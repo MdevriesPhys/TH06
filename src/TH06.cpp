@@ -122,8 +122,6 @@ boolean TH06::setTempControl(byte res, boolean heater) {
 
 boolean TH06::getFirmwareVer(byte &firmware) {
 	// Gets the Firmware Version of the chip
-	// Default value is 0xFF for version 1.0
-	// or 0x20 for version 2.0
 	// Returns true (1) if successful, false (0) if there was an I2C error
 	// (Also see getError() below)
 	
