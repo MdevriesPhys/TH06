@@ -1,12 +1,13 @@
 /* 
-	TH06-A20 library example sketch
-	Lovelesh, thingTronics
+	TH06 library example sketch V0.1
+	Mitchell de Vries 2021
+	Github MdeVriesPhys
 
 This sketch shows how to use the TH06 library to read the TH06 temperature and humidity sensor.
 
 Hardware connections:
 
-3V3 to 3.3V
+3V3 to VDD
 GND to GND
 
 (WARNING: do not connect 3V3 to 5V or the sensor will be damaged!)

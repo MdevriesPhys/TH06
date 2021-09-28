@@ -1,0 +1,23 @@
+#########################################################################
+# Syntax Colouring Map For TH06 Temperature and Humidity Sensor Library #
+#########################################################################
+
+#########################################################################
+# Datatypes (KEYWORD1)                                                  #
+#########################################################################
+
+TH06				KEYWORD1
+
+#########################################################################
+# Methods and Functions (KEYWORD2)                                      #
+#########################################################################
+
+begin				KEYWORD2
+reset				KEYWORD2
+getFirmwareVer		KEYWORD2
+getTempControl		KEYWORD2
+setTempControl		KEYWORD2
+getTemperature		KEYWORD2
+getOldTemperature	KEYWORD2
+getHumidity			KEYWORD2
+getError			KEYWORD2

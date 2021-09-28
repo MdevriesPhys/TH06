@@ -1,30 +1,22 @@
 /*
 	TH06 Temperature and humidity sensor library for Arduino
-	Lovelesh, thingTronics
 	
-The MIT License (MIT)
+	Copyright (C) 2021  Mitchell de Vries
 
-Copyright (c) 2015 thingTronics Limited
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-version 0.1
+	version 0.1
 */
 
 #ifndef TH06_h
@@ -89,12 +81,6 @@ class TH06 {
 			// Returns true (1) if successful, false (0) if there was an I2C error
 			// (Also see getError() below)
 			
-		boolean getDeviceID(char (&deviceID)[8]);
-			// Gets the Device ID of the chip
-			// Default value of MSB 0x06
-			// Returns true (1) if successful, false (0) if there was an I2C error
-			// (Also see getError() below)
-
 		boolean getFirmwareVer(byte &firmware);
 			// Gets the Firmware Version of the chip
 			// Default value is 0xFF for version 1.0
