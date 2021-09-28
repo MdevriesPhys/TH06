@@ -25,7 +25,7 @@ Built off of aruduno library for the *very* similar [Si7006 arduino library](htt
 
 ## Repository Contents ##
 - - - - - - - -
-* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
+* **/examples** - Example sketch for the library (.ino). Run it from the Arduino IDE. 
 * **/src** - Source files for the library (.cpp, .h).
 * ~~**library.properties** - General library properties for the Arduino package manager.~~ **To do**
 * ~~**library.json** - General library properties for the Arduino package manager in JSON format~~ **To do**
