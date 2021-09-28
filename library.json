@@ -1,0 +1,13 @@
+{
+  "name": "TH06",
+  "keywords": "sensor, temperature, humidity",
+  "description": "A temperature and humidity sensor library for the TH06",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/MdevriesPhys/TH06"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr",
+  "examples": "examples/*.ino"
+}

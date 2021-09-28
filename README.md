@@ -27,8 +27,8 @@ Built off of aruduno library for the *very* similar [Si7006 arduino library](htt
 - - - - - - - -
 * **/examples** - Example sketch for the library (.ino). Run it from the Arduino IDE. 
 * **/src** - Source files for the library (.cpp, .h).
-* ~~**library.properties** - General library properties for the Arduino package manager.~~ **To do**
-* ~~**library.json** - General library properties for the Arduino package manager in JSON format~~ **To do**
+* **library.properties** - General library properties for the Arduino package manager.
+* **library.json** - General library properties for the Arduino package manager in JSON format
 * **keywords.txt** - Contains the keywords for Arduino IDE.
 * **license** - GNU General License v3.0
 * **TH06 Datasheet** - Datasheet for TH06 - [Direct Download](https://www.hoperf.com/data/upload/portal/20190307/TH06%20Datasheet.pdf "Direct link to datasheet")
