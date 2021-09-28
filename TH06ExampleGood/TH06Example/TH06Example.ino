@@ -35,7 +35,7 @@ void setup() {
 	Serial.println("TH06 example sketch");
 
 	// Initialize the TH06 library
-	// You can pass nothing to light.begin() for the default I2C address (0x40)
+	// You can pass nothing to th06.begin() for the default I2C address (0x40)
 	th06.begin();
 	
 	if (!th06.begin()) {

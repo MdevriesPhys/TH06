@@ -30,5 +30,5 @@ Built off of aruduno library for the *very* similar [Si7006 arduino library](htt
 * ~~**library.properties** - General library properties for the Arduino package manager.~~ **To do**
 * ~~**library.json** - General library properties for the Arduino package manager in JSON format~~ **To do**
 * ~~**keywords.txt** - Contains the keywords for Arduino IDE.~~ **To do**
-* **LICENSE** - GNU General License v3.0
+* **license** - GNU General License v3.0
 * **TH06 Datasheet** - Datasheet for TH06 - [Direct Download](https://www.hoperf.com/data/upload/portal/20190307/TH06%20Datasheet.pdf "Direct link to datasheet")
